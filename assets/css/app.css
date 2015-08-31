@@ -1,0 +1,144 @@
+section {
+  bottom: 29px !important;
+}
+.nav.nav-tabs {
+  padding: 10px 0 0 10px !important;
+}
+.npmap-modules .module .content {
+  padding: 0 2px !important;
+  background: #fff !important;
+}
+ul.list{
+  list-style: none;
+  padding: 10px 5px 10px 0;
+}
+#unit-list button{
+  height: 22px;
+  border: none;
+  background-color: #FFF;
+  margin: 0 11px 0 -30px;
+}
+.unit-list ul {
+  margin-top:10px;
+}
+.list > li {
+  padding-left: 5px;
+  cursor: pointer;
+}
+input {
+  margin-right: 5px !important;
+}
+input#search:focus {
+  outline:none;
+  border-color:#aaa;
+}
+input#search {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #c9c9c9;
+  color: #464646;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 8px;
+  width:84%;
+}
+.npmap.btn-circle {
+  background: #d3d3d3;
+}
+.Algonquian {
+  background-color: #BA6D85;
+  background-color: rgba(186,109,133,0.6);
+}
+.Caddoan {
+  background-color: #767B87;
+  background-color: rgba(118,123,135,0.6);
+}
+.Iroquoian {
+  background-color: #4D858D;
+  background-color: rgba(77,133,141,0.6);
+}
+.Muskhogean {
+  background-color: #CDB079;
+  background-color: rgba(205,176,121,0.6);
+}
+.Siouan {
+  background-color: #FF7C69;
+  background-color: rgba(225,124,105,0.6);
+}
+.Tunican {
+  background-color: #A081B1;
+  background-color: rgba(160,129,177,0.6);
+}
+.npmap .btn-circle, .npmap .leaflet-container a.leaflet-popup-close-button, .date.btn.btn-default {
+  background: #d3d3d3;
+}
+.npmap .leaflet-container a.leaflet-popup-close-button:hover{
+  background: #B5B39C;
+}
+#year-buttons{
+  background: #efece3;
+  position: fixed;
+  left: 38%;
+  bottom: 20px;
+  min-width: 42em;
+  padding: 5px;
+}
+.date.btn.btn-default {
+  border-radius: 10px;
+  border:solid 1px #fff;
+  margin: 5px;
+}
+button:hover, .date.btn.btn-default:hover, {
+  -webkit-text-shadow: 0 2px 2px #B5B39C;
+  -moz-text-shadow: 0 2px 2px #B5B39C;
+  -ms-text-shadow: 0 2px 2px #B5B39C;
+  -o-text-shadow: 0 2px 2px #B5B39C;
+  border:solid 1px #000;
+}
+.date.btn.btn-default.active, .btn.active {
+  color: #000;
+  background-color: #B5B39C;
+  border-radius: 5px;
+  border:solid 1px #000;
+}
+div.leaflet-bottom .leaflet-right{
+  position: absolute;
+  right: 90px;
+}
+.fa:before {
+  cursor: pointer;
+}
+#module-legend{
+  background: #efece3;
+  right: 10px;
+  position: fixed;
+  bottom: 80px;
+  z-index: 2;
+  margin: 5px;
+}
+.popover {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -khtml-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+.popover { 
+  background-color: #efece3; 
+}
+.popover.top .arrow:after { 
+  border-top-color: #d3d3d3;
+}
+
+@media only screen and (max-width: 980px) {
+  .date.btn.btn-default{
+    font-size: 10px;
+    margin: 0;
+  }
+  #year-buttons{
+    min-width: 33.7em;
+    left: 38%;
+    padding: 5px;
+  }
+}
